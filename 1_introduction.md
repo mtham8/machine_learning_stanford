@@ -1,0 +1,91 @@
+#### Machine Learning
+
+- grew out of work in AI
+- new capability for computer
+
+Examples:
+
+- database mining
+- large datasets from growth of automation/web
+(Eg, web click data, medical records, biology, engineering)
+- applications can't program by hand
+(Eg, autonomous helicopter, handwriting recognition, most of Natural Language Processing (NLP),
+Computer Vision)
+- self-customizing programs
+(Eg, Amazon, Netflix product recommendations)
+- understanding human learning (brain, real AI)
+
+#### What is Machine Learning
+
+- Arthur Samuel (1959). Machine Learning: Field of study that gives computers the ability to
+learn without being explicitly programmed
+
+- Tom Mitchell (1998) Well-posed Learning Problem: A computer program is said to _learn_ from
+experience `E` with respect to some task `T` and some performance measure `P`, if its performance
+on `T`, as measured by `P`, improves with experience `E`.
+
+Suppose your email program watches which emails you do or do not mark as spam, and based on that
+learns how to better filter spam.
+- _Task_ : Classifying emails as spam or not spam
+- _Experience_: Watching you label emails as spam or not spam
+- _Performance_: The number (or fraction) of emails correctly classified as spam/not spam
+
+Machine Learning algorithms:
+
+- supervised learning
+- unsupervised learning
+- others: reinforcement learning, recommender systems
+
+#### Supervised Learning
+
+_Supervised Learning_: "right answers" given
+
+In supervised learning, we are given a dataset and already know what our current output should
+look like, having the idea that there is a relationship between the input and the output.
+
+- _Regression_: Predict continuous valued output (price)
+
+In a regression problem, we are trying to predict results within a continuous output, meaning
+that we are trying to map input variables to some continuous function.
+
+- _Classification_: Discrete valued output (0 or 1)
+
+In a classification problem, we are trying to predict results in a discrete output. In other
+words, we are trying to map input variables into discrete categories.
+
+_Regression Problem_: You have a large inventory of identical items. You want to predict how many
+of these items will sell over the next 3 months. (identical items - row values (x-axis))
+
+_Classification Problem_: You'd like software to examine individual customer accounts, and for
+each account decide if it has been hacked/compromised. (0 (not hacked) or 1 (hacked))
+
+#### Unsupervised Learning
+
+Unsupervised learning allows us to approach problems with little or no idea what our results
+should look like. We can derive structure from data where we don't necessarily know the effect
+of the variables.
+
+We can derive this structure by clustering the data based on relationships among the variables in
+the data.
+
+With unsupervised learning there is no feedback based on the prediction results.
+
+_Clustering_
+- example: Google News, groups stories into cohesive stories
+- uses: organize computing cluters, social network analysis, market segmentation, astronomical
+data analysis
+- given a set of news articles found on the web, group them into set of articles about the same
+story
+- given a database of customer data, automatically discover market segments and group customers
+into different market segments
+
+_Non-clustering_
+- The "Cocktail Party Algorithm", allows you to find structure in a chaotic environment
+(ie. identifying individual voices and music from a mesh of sounds)
+
+
+
+
+
+
+
